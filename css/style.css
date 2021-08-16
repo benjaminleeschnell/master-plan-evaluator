@@ -1,0 +1,173 @@
+/* 
+
+colors
+dark blue: #6A2C70
+maroon: #B83B5E
+orange: #F08A5D
+yellow: #F9ED69
+Good idea green: #00B8A9
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+  color: #004c4d;
+}
+
+body {
+  background-color: #e0e0e0;
+  /* background-color: #00e0e0; */
+  /* background-color: #000000; */
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 100px auto 220px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding-bottom: 90px;
+}
+
+.header .title {
+  border-radius: 20px;
+  background-color: #00e0e0;
+  background-color: #e0e0e0;
+  /* background-color: #000000; */
+  box-shadow: 10px 10px 30px #bebebe, -5px -5px 15px #ffffff;
+  padding: 60px 0;
+}
+
+.header h2 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 300;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #004c4d;
+}
+
+.header h4 {
+  text-align: center;
+}
+
+.header h3 {
+  margin-bottom: 0.5em;
+  margin-top: 30px;
+}
+
+.header p {
+  margin-bottom: 0.5em;
+}
+
+.header li p {
+  margin: 0 0 0 0;
+}
+
+.header li small {
+  margin-bottom: 1em;
+}
+
+.header ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.header ul li {
+  margin: 10px 10px 0 0;
+  /* box-shadow: 10px 10px 30px #bebebe, -5px -5px 15px #ffffff; */
+  list-style-type: none;
+  max-width: 200px;
+  padding: 15px;
+  border-radius: 3px;
+  border: solid 1px #bebebe;
+}
+
+p.note {
+  /* box-shadow: 10px 10px 30px #bebebe, -5px -5px 15px #ffffff; */
+  padding: 0 15px 15px 0;
+  border-radius: 3px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(33.33% - 100px);
+  /* background: linear-gradient(139deg, #b83b5e, #832a44);
+  background: linear-gradient(139deg, #62d2a2 10%, #1fab89 90%);
+  color: #fff; */
+  box-shadow: 10px 10px 30px #bebebe, -5px -5px 15px #ffffff;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 200px;
+  /* box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.35); */
+  border-radius: 3px;
+}
+
+.box h3 {
+  text-align: center;
+  font-size: 1.1em;
+  height: 63px;
+  overflow: hidden;
+}
+
+.box p {
+  padding-top: 10px;
+  font-size: 0.7em;
+}
+
+.box .eval {
+  border-radius: 3px;
+  background: #e0e0e0;
+  box-shadow: inset 3px 3px 10px #bebebe, inset -3px -3px 10px #ffffff;
+  padding: 30px;
+}
+
+.box .eval td {
+  font-size: 0.75em;
+  padding-right: 5px;
+}
+
+.box .eval td.total {
+  font-weight: bold;
+}
+
+.issues,
+.next-steps {
+  margin-top: 90px;
+}
+
+.boxes.hide {
+  display: none;
+}
+
+#show {
+  cursor: pointer;
+}
+
+.crossout {
+  text-decoration: line-through;
+}
+
+.next-steps-list ul {
+  margin-left: 30px;
+}
