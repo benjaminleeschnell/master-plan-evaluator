@@ -108,6 +108,7 @@ p.note {
 
 .box {
   width: calc(33.33% - 100px);
+  min-width: 214px;
   /* background: linear-gradient(139deg, #b83b5e, #832a44);
   background: linear-gradient(139deg, #62d2a2 10%, #1fab89 90%);
   color: #fff; */
